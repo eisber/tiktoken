@@ -40,3 +40,7 @@ htmlcov
 
 Cargo.lock
 target/
+
+# WASM
+ranks/
+node_modules

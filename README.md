@@ -78,7 +78,7 @@ Layout your project like this, making sure to omit the `tiktoken_ext/__init__.py
 ```
 my_tiktoken_extension
 ├── tiktoken_ext
-│   └── my_encodings.py
+│   └── my_encodings.py
 └── setup.py
 ```
 
@@ -101,4 +101,3 @@ setup(
 
 Then simply `pip install ./my_tiktoken_extension` and you should be able to use your
 custom encodings! Make sure **not** to use an editable install.
-

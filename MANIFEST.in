@@ -5,5 +5,9 @@ include Makefile
 global-include py.typed
 recursive-include scripts *.py
 recursive-include tests *.py
-recursive-include src *.rs
+recursive-include core *.rs *.toml
+recursive-include python *.rs *.toml
+recursive-exclude jni *
+recursive-exclude java *
+recursive-exclude js *
 include tiktoken *.json
